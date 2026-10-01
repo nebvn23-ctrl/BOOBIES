@@ -6,7 +6,7 @@ Everything (images, videos, font, code) is packed into `index.html`. Only three.
 
 ## Set the contract and links
 
-Open `index.html`. The block you need is at the very top:
+Open `config.js` (it is a small file, so you can edit it right on GitHub with the pencil icon):
 
 ```js
 window.BOO_CONFIG = {
@@ -43,5 +43,6 @@ https://YOUR-USERNAME.github.io/REPO-NAME/preview.jpg
 | File | Purpose |
 |---|---|
 | `index.html` | The whole site |
+| `config.js` | Contract address, X link, buy link |
 | `preview.jpg` | 1200×630 image for link previews |
 | `favicon.ico`, `apple-touch-icon.png` | Tab and home-screen icons |

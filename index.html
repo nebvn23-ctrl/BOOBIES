@@ -18,16 +18,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap">
-<script>
-/* ============================================================
-   EDIT HERE: contract address and links
-   ============================================================ */
-window.BOO_CONFIG = {
-  ca:  "",                     // contract address, e.g. "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU"
-  x:   "https://x.com/",       // your X (Twitter) link
-  buy: ""                      // optional direct buy link (DEX). Leave empty to hide the Buy button.
-};
-</script>
+<!-- Settings (contract address, X link, buy link) live in config.js -->
+<script src="config.js"></script>
+<script>window.BOO_CONFIG = window.BOO_CONFIG || { ca: "", x: "https://x.com/", buy: "" };</script>
 <style>
 :root{
   --abyss:#0a0510; --night:#160a1a; --ember:#ff7b22; --ember-hot:#ffc06a; --rust:#7a2410;
